@@ -1,0 +1,54 @@
+.experience-page {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1a1a2e, #000000);
+    color: #ffffff;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .experience-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-subtitle {
+    color: #a0a0a0;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(128, 0, 128, 0.5), rgba(128, 0, 128, 0));
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -2.25rem;
+    top: 1.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #800080;
+  }
+  
+  
